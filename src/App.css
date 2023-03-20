@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #3a2778;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg);
+  padding-bottom: 40px;
+}
+
+.signup-content {
+  background: #f9f9fb;
+}
+
+.benefits-wrapper hr {
+  margin: 50px auto 40px;
+  height: 1px;
+  margin: 2em 0;
+  border: 0;
+  background-color: rgba(228, 228, 231, 0);
+  background-image: linear-gradient(
+    to right,
+    rgba(228, 228, 231, 0),
+    rgba(228, 228, 231, 0.9) 10%,
+    rgba(228, 228, 231, 0.9) 90%,
+    rgba(228, 228, 231, 0)
+  );
+}
+
+.benefit-header span {
+  color: #79589f;
+}
+
+.benefit p {
+  color: #383e40;
+}
+
+.signup {
+  color: #383e40;
+  transform: translateX(30px);
+}
+
+.form-wrapper {
+  width: 300px;
+}
